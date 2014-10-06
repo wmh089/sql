@@ -1,0 +1,43 @@
+SQL简介
+	sql是用于访问和处理数据库的标准的计算机语言。
+	
+	增删改查
+	创建数据库
+	创建表
+	创建存储过程
+	创建视图
+	设置表、存储过程和视图的权限
+	
+	RDBMS数据库管理系统
+	
+SQL语法
+	表
+	sql语句对大小写不敏感
+	sql语句末端使用分号
+	
+	select	查询
+	update	更新
+	delete	删除
+	insert into	插入
+	create database	创建数据库
+	alter database	修改数据库
+	create table	创建表
+	alter table		修改表
+	drop table	删除表
+	create index	创建索引
+	drop index		删除索引
+	
+SQL SELECT语句
+	从数据库中选取数据，结果存储在一个结果表中，即结果集。
+	
+	select column_name,...
+	from table_name;
+	
+SQL SELECT DISTINCT语句
+	用于返回唯一不同的值。
+	
+	select distinct column_name,...
+	from table_name;
+	
+SQL WHERE字句
+	用于提取那些满足指定标准的记录。
