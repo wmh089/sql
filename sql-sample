@@ -56,3 +56,21 @@ SQL And & OR运算符
 	from table_name
 	where column_name operator value
 		and(or) column_name operator value...
+		
+SQL order by 关键字
+	用于对结果集进行排序
+	按照一列或多列进行排序。
+	默认按照升序进行排列，降序使用desc关键字。
+	
+	select column_name,...
+	from table_name
+	order by column_name,column_name asc|desc;
+	
+SQL insert into 语句
+	向表中插入新纪录
+	
+	insert into table_name
+	values(value1,value2,value3...);
+	或
+	insert into table_name(column1,column2,column3,...)
+	values(value1,value2,value3,...);
