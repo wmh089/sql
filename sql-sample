@@ -41,3 +41,18 @@ SQL SELECT DISTINCT语句
 	
 SQL WHERE字句
 	用于提取那些满足指定标准的记录。
+	
+	select column_name,...
+	from table_name
+	where column_name operator value;
+	
+	sql使用单引号来环绕文本值，有些也接受双引号。
+		数值字段，不用使用引号。
+
+SQL And & OR运算符
+	用于基于一个以上的条件对记录进行过滤。
+	
+	select column_name,...
+	from table_name
+	where column_name operator value
+		and(or) column_name operator value...
